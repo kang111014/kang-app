@@ -1,0 +1,143 @@
+{
+  "schema": 1,
+  "id": "polaroid",
+  "name": "拍立得散落",
+  "source": "builtin",
+  "mood": "light",
+  "stickers": [
+    1,
+    3
+  ],
+  "backgrounds": [
+    {
+      "type": "pattern",
+      "pattern": "dots",
+      "base": "p0",
+      "ink": "p1",
+      "size": 44,
+      "opacity": 0.6
+    },
+    {
+      "type": "blur",
+      "tint": "p0",
+      "tintOpacity": 0.35
+    },
+    {
+      "type": "stock",
+      "query": "paper texture",
+      "tint": "p0",
+      "tintOpacity": 0.3,
+      "fallback": "p0"
+    }
+  ],
+  "slots": [
+    {
+      "id": "main",
+      "role": "main",
+      "x": 150,
+      "y": 230,
+      "w": 780,
+      "h": 900,
+      "rotate": -3,
+      "frame": {
+        "width": 34,
+        "color": "#ffffff",
+        "style": "polaroid"
+      },
+      "shadow": true
+    },
+    {
+      "id": "a",
+      "role": "photo",
+      "x": 70,
+      "y": 1240,
+      "w": 420,
+      "h": 420,
+      "rotate": 7,
+      "frame": {
+        "width": 22,
+        "color": "#ffffff",
+        "style": "polaroid"
+      },
+      "shadow": true
+    },
+    {
+      "id": "b",
+      "role": "photo",
+      "x": 580,
+      "y": 1290,
+      "w": 420,
+      "h": 420,
+      "rotate": -6,
+      "frame": {
+        "width": 22,
+        "color": "#ffffff",
+        "style": "polaroid"
+      },
+      "shadow": true
+    }
+  ],
+  "decorations": [
+    {
+      "type": "tape",
+      "x": 440,
+      "y": 175,
+      "w": 220,
+      "h": 70,
+      "rotate": -6,
+      "color": "p2",
+      "opacity": 0.8,
+      "above": true
+    },
+    {
+      "type": "tape",
+      "x": 200,
+      "y": 1205,
+      "w": 160,
+      "h": 55,
+      "rotate": 12,
+      "color": "p3",
+      "opacity": 0.8,
+      "above": true
+    },
+    {
+      "type": "tape",
+      "x": 720,
+      "y": 1255,
+      "w": 160,
+      "h": 55,
+      "rotate": -10,
+      "color": "p2",
+      "opacity": 0.8,
+      "above": true
+    },
+    {
+      "type": "sparkle",
+      "x": 900,
+      "y": 120,
+      "w": 90,
+      "h": 90,
+      "color": "p2",
+      "animate": "twinkle"
+    },
+    {
+      "type": "sparkle",
+      "x": 60,
+      "y": 1110,
+      "w": 70,
+      "h": 70,
+      "color": "p3",
+      "animate": "twinkle"
+    },
+    {
+      "type": "star",
+      "x": 470,
+      "y": 1760,
+      "w": 110,
+      "h": 110,
+      "color": "p3",
+      "rotate": 12,
+      "animate": "spin"
+    }
+  ]
+}

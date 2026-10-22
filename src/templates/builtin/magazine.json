@@ -1,0 +1,97 @@
+{
+  "schema": 1,
+  "id": "magazine",
+  "name": "雜誌格線",
+  "source": "builtin",
+  "mood": "light",
+  "stickers": [
+    0,
+    1
+  ],
+  "backgrounds": [
+    {
+      "type": "solid",
+      "color": "p0"
+    },
+    {
+      "type": "gradient",
+      "colors": [
+        "p0",
+        "p1"
+      ],
+      "angle": 160
+    }
+  ],
+  "slots": [
+    {
+      "id": "main",
+      "role": "main",
+      "x": 60,
+      "y": 150,
+      "w": 960,
+      "h": 1000
+    },
+    {
+      "id": "a",
+      "role": "photo",
+      "x": 60,
+      "y": 1180,
+      "w": 465,
+      "h": 340
+    },
+    {
+      "id": "b",
+      "role": "photo",
+      "x": 555,
+      "y": 1180,
+      "w": 465,
+      "h": 340
+    },
+    {
+      "id": "c",
+      "role": "photo",
+      "x": 60,
+      "y": 1550,
+      "w": 960,
+      "h": 300
+    }
+  ],
+  "decorations": [
+    {
+      "type": "line",
+      "x": 60,
+      "y": 100,
+      "w": 960,
+      "h": 0,
+      "color": "p4",
+      "stroke": 6
+    },
+    {
+      "type": "line",
+      "x": 60,
+      "y": 1880,
+      "w": 960,
+      "h": 0,
+      "color": "p4",
+      "stroke": 6
+    },
+    {
+      "type": "circle",
+      "x": 880,
+      "y": 60,
+      "w": 120,
+      "h": 120,
+      "color": "p2",
+      "above": true,
+      "animate": "float"
+    },
+    {
+      "type": "rect",
+      "x": 60,
+      "y": 40,
+      "w": 240,
+      "h": 36,
+      "color": "p3"
+    }
+  ]
+}

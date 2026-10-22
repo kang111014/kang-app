@@ -1,0 +1,81 @@
+{
+  "schema": 1,
+  "id": "minimal",
+  "name": "極簡留白",
+  "source": "builtin",
+  "mood": "any",
+  "stickers": [
+    0,
+    1
+  ],
+  "backgrounds": [
+    {
+      "type": "solid",
+      "color": "p0"
+    },
+    {
+      "type": "gradient",
+      "colors": [
+        "p0",
+        "p1"
+      ],
+      "angle": 180
+    }
+  ],
+  "slots": [
+    {
+      "id": "main",
+      "role": "main",
+      "x": 170,
+      "y": 300,
+      "w": 740,
+      "h": 1080,
+      "frame": {
+        "width": 3,
+        "color": "p4"
+      }
+    },
+    {
+      "id": "a",
+      "role": "photo",
+      "x": 680,
+      "y": 1290,
+      "w": 280,
+      "h": 360,
+      "frame": {
+        "width": 12,
+        "color": "#ffffff"
+      },
+      "shadow": true
+    }
+  ],
+  "decorations": [
+    {
+      "type": "line",
+      "x": 170,
+      "y": 230,
+      "w": 300,
+      "h": 0,
+      "color": "p4",
+      "stroke": 4
+    },
+    {
+      "type": "line",
+      "x": 610,
+      "y": 1760,
+      "w": 300,
+      "h": 0,
+      "color": "p4",
+      "stroke": 4
+    },
+    {
+      "type": "circle",
+      "x": 120,
+      "y": 1430,
+      "w": 110,
+      "h": 110,
+      "color": "p2",
+      "animate": "float"
+    }
+  ]
+}

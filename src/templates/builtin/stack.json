@@ -1,0 +1,117 @@
+{
+  "schema": 1,
+  "id": "stack",
+  "name": "卡片堆疊",
+  "source": "builtin",
+  "mood": "any",
+  "stickers": [
+    2,
+    4
+  ],
+  "backgrounds": [
+    {
+      "type": "gradient",
+      "colors": [
+        "p1",
+        "p2"
+      ],
+      "angle": 200
+    },
+    {
+      "type": "blur",
+      "tint": "p1",
+      "tintOpacity": 0.3
+    },
+    {
+      "type": "stock",
+      "query": "sky",
+      "tint": "p1",
+      "tintOpacity": 0.2,
+      "fallback": "p1"
+    }
+  ],
+  "slots": [
+    {
+      "id": "a",
+      "role": "photo",
+      "x": 150,
+      "y": 240,
+      "w": 660,
+      "h": 860,
+      "rotate": -10,
+      "radius": 28,
+      "frame": {
+        "width": 14,
+        "color": "#ffffff"
+      },
+      "shadow": true
+    },
+    {
+      "id": "b",
+      "role": "photo",
+      "x": 290,
+      "y": 300,
+      "w": 660,
+      "h": 860,
+      "rotate": 8,
+      "radius": 28,
+      "frame": {
+        "width": 14,
+        "color": "#ffffff"
+      },
+      "shadow": true
+    },
+    {
+      "id": "main",
+      "role": "main",
+      "x": 180,
+      "y": 560,
+      "w": 720,
+      "h": 1000,
+      "rotate": -2,
+      "radius": 28,
+      "frame": {
+        "width": 16,
+        "color": "#ffffff"
+      },
+      "shadow": true
+    },
+    {
+      "id": "c",
+      "role": "photo",
+      "x": 620,
+      "y": 1500,
+      "w": 360,
+      "h": 340,
+      "rotate": 6,
+      "radius": 24,
+      "frame": {
+        "width": 12,
+        "color": "#ffffff"
+      },
+      "shadow": true
+    }
+  ],
+  "decorations": [
+    {
+      "type": "confetti",
+      "x": 0,
+      "y": 0,
+      "w": 1080,
+      "h": 1920,
+      "color": "p0",
+      "opacity": 0.9
+    },
+    {
+      "type": "star",
+      "x": 90,
+      "y": 1580,
+      "w": 160,
+      "h": 160,
+      "color": "p3",
+      "rotate": -10,
+      "animate": "spin",
+      "above": true
+    }
+  ]
+}
