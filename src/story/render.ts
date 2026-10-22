@@ -465,6 +465,8 @@ export function stickerPlacements(template: StoryTemplate, style: StoryStyle): D
 // ---------- 照片格 ----------
 
 function drawPlaceholder(ctx: CanvasRenderingContext2D, x: number, y: number, w: number, h: number, palette: Palette) {
+  ctx.fillStyle = palette[0];
+  ctx.fillRect(x, y, w, h);
   ctx.fillStyle = withAlpha(palette[4], 0.15);
   ctx.fillRect(x, y, w, h);
   ctx.fillStyle = withAlpha(palette[4], 0.35);
