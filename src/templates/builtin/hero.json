@@ -1,0 +1,106 @@
+{
+  "schema": 1,
+  "id": "hero",
+  "name": "大圖加小圖",
+  "source": "builtin",
+  "mood": "any",
+  "stickers": [
+    1,
+    2
+  ],
+  "backgrounds": [
+    {
+      "type": "gradient",
+      "colors": [
+        "p0",
+        "p1"
+      ],
+      "angle": 135
+    },
+    {
+      "type": "blur",
+      "tint": "p0",
+      "tintOpacity": 0.25
+    },
+    {
+      "type": "stock",
+      "query": "abstract pastel",
+      "tint": "p0",
+      "tintOpacity": 0.25,
+      "fallback": "p0"
+    }
+  ],
+  "slots": [
+    {
+      "id": "main",
+      "role": "main",
+      "x": 90,
+      "y": 170,
+      "w": 900,
+      "h": 1180,
+      "radius": 48,
+      "shadow": true
+    },
+    {
+      "id": "a",
+      "role": "photo",
+      "x": 90,
+      "y": 1410,
+      "w": 280,
+      "h": 390,
+      "radius": 32,
+      "shadow": true
+    },
+    {
+      "id": "b",
+      "role": "photo",
+      "x": 400,
+      "y": 1410,
+      "w": 280,
+      "h": 390,
+      "radius": 32,
+      "shadow": true
+    },
+    {
+      "id": "c",
+      "role": "photo",
+      "x": 710,
+      "y": 1410,
+      "w": 280,
+      "h": 390,
+      "radius": 32,
+      "shadow": true
+    }
+  ],
+  "decorations": [
+    {
+      "type": "blob",
+      "x": -120,
+      "y": -100,
+      "w": 420,
+      "h": 420,
+      "color": "p2",
+      "opacity": 0.7
+    },
+    {
+      "type": "blob",
+      "x": 780,
+      "y": 1660,
+      "w": 420,
+      "h": 380,
+      "color": "p3",
+      "opacity": 0.7
+    },
+    {
+      "type": "ring",
+      "x": 820,
+      "y": 90,
+      "w": 180,
+      "h": 180,
+      "color": "p4",
+      "stroke": 8,
+      "above": true,
+      "animate": "float"
+    }
+  ]
+}

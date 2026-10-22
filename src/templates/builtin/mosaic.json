@@ -1,0 +1,90 @@
+{
+  "schema": 1,
+  "id": "mosaic",
+  "name": "馬賽克拼接",
+  "source": "builtin",
+  "mood": "dark",
+  "stickers": [
+    0,
+    1
+  ],
+  "backgrounds": [
+    {
+      "type": "solid",
+      "color": "p0"
+    },
+    {
+      "type": "solid",
+      "color": "p1"
+    }
+  ],
+  "slots": [
+    {
+      "id": "main",
+      "role": "main",
+      "x": 24,
+      "y": 24,
+      "w": 690,
+      "h": 1180,
+      "radius": 18
+    },
+    {
+      "id": "a",
+      "role": "photo",
+      "x": 730,
+      "y": 24,
+      "w": 326,
+      "h": 580,
+      "radius": 18
+    },
+    {
+      "id": "b",
+      "role": "photo",
+      "x": 730,
+      "y": 620,
+      "w": 326,
+      "h": 584,
+      "radius": 18
+    },
+    {
+      "id": "c",
+      "role": "photo",
+      "x": 24,
+      "y": 1220,
+      "w": 516,
+      "h": 676,
+      "radius": 18
+    },
+    {
+      "id": "d",
+      "role": "photo",
+      "x": 556,
+      "y": 1220,
+      "w": 500,
+      "h": 676,
+      "radius": 18
+    }
+  ],
+  "decorations": [
+    {
+      "type": "circle",
+      "x": 640,
+      "y": 1130,
+      "w": 150,
+      "h": 150,
+      "color": "p2",
+      "above": true,
+      "animate": "twinkle"
+    },
+    {
+      "type": "sparkle",
+      "x": 675,
+      "y": 1165,
+      "w": 80,
+      "h": 80,
+      "color": "#ffffff",
+      "above": true,
+      "animate": "spin"
+    }
+  ]
+}

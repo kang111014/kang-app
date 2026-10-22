@@ -1,0 +1,139 @@
+{
+  "schema": 1,
+  "id": "scrapbook",
+  "name": "手帳拼貼",
+  "source": "builtin",
+  "mood": "light",
+  "stickers": [
+    3,
+    5
+  ],
+  "backgrounds": [
+    {
+      "type": "pattern",
+      "pattern": "grid",
+      "base": "p0",
+      "ink": "p1",
+      "size": 54,
+      "opacity": 0.8
+    },
+    {
+      "type": "stock",
+      "query": "paper",
+      "tint": "p0",
+      "tintOpacity": 0.2,
+      "fallback": "p0"
+    }
+  ],
+  "slots": [
+    {
+      "id": "main",
+      "role": "main",
+      "x": 90,
+      "y": 240,
+      "w": 740,
+      "h": 900,
+      "rotate": 2,
+      "frame": {
+        "width": 20,
+        "color": "#ffffff"
+      },
+      "shadow": true
+    },
+    {
+      "id": "a",
+      "role": "photo",
+      "x": 580,
+      "y": 1010,
+      "w": 420,
+      "h": 520,
+      "rotate": -6,
+      "frame": {
+        "width": 16,
+        "color": "#ffffff"
+      },
+      "shadow": true
+    },
+    {
+      "id": "b",
+      "role": "photo",
+      "x": 90,
+      "y": 1220,
+      "w": 420,
+      "h": 420,
+      "rotate": 5,
+      "frame": {
+        "width": 16,
+        "color": "#ffffff"
+      },
+      "shadow": true
+    },
+    {
+      "id": "c",
+      "role": "photo",
+      "x": 470,
+      "y": 1580,
+      "w": 380,
+      "h": 280,
+      "rotate": -2,
+      "frame": {
+        "width": 14,
+        "color": "#ffffff"
+      },
+      "shadow": true
+    }
+  ],
+  "decorations": [
+    {
+      "type": "tape",
+      "x": 370,
+      "y": 200,
+      "w": 200,
+      "h": 64,
+      "rotate": -4,
+      "color": "p2",
+      "opacity": 0.75,
+      "above": true
+    },
+    {
+      "type": "tape",
+      "x": 720,
+      "y": 980,
+      "w": 150,
+      "h": 52,
+      "rotate": 10,
+      "color": "p3",
+      "opacity": 0.75,
+      "above": true
+    },
+    {
+      "type": "tape",
+      "x": 180,
+      "y": 1195,
+      "w": 150,
+      "h": 52,
+      "rotate": -12,
+      "color": "p2",
+      "opacity": 0.75,
+      "above": true
+    },
+    {
+      "type": "flower",
+      "x": 860,
+      "y": 120,
+      "w": 160,
+      "h": 160,
+      "color": "p3",
+      "animate": "spin"
+    },
+    {
+      "type": "dots",
+      "x": 60,
+      "y": 1700,
+      "w": 300,
+      "h": 160,
+      "color": "p2",
+      "opacity": 0.6
+    }
+  ]
+}

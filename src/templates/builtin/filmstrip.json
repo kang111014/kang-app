@@ -1,0 +1,110 @@
+{
+  "schema": 1,
+  "id": "filmstrip",
+  "name": "底片條",
+  "source": "builtin",
+  "mood": "dark",
+  "stickers": [
+    0,
+    2
+  ],
+  "backgrounds": [
+    {
+      "type": "solid",
+      "color": "p0"
+    },
+    {
+      "type": "gradient",
+      "colors": [
+        "p0",
+        "p2"
+      ],
+      "angle": 180
+    },
+    {
+      "type": "blur",
+      "tint": "p0",
+      "tintOpacity": 0.55
+    }
+  ],
+  "slots": [
+    {
+      "id": "main",
+      "role": "main",
+      "x": 210,
+      "y": 100,
+      "w": 660,
+      "h": 820
+    },
+    {
+      "id": "a",
+      "role": "photo",
+      "x": 210,
+      "y": 950,
+      "w": 660,
+      "h": 290
+    },
+    {
+      "id": "b",
+      "role": "photo",
+      "x": 210,
+      "y": 1270,
+      "w": 660,
+      "h": 290
+    },
+    {
+      "id": "c",
+      "role": "photo",
+      "x": 210,
+      "y": 1590,
+      "w": 660,
+      "h": 290
+    }
+  ],
+  "decorations": [
+    {
+      "type": "rect",
+      "x": 150,
+      "y": 0,
+      "w": 780,
+      "h": 1920,
+      "color": "#111111"
+    },
+    {
+      "type": "filmholes",
+      "x": 160,
+      "y": 20,
+      "w": 36,
+      "h": 1880,
+      "color": "#f4f1ea",
+      "opacity": 0.9
+    },
+    {
+      "type": "filmholes",
+      "x": 884,
+      "y": 20,
+      "w": 36,
+      "h": 1880,
+      "color": "#f4f1ea",
+      "opacity": 0.9
+    },
+    {
+      "type": "sparkle",
+      "x": 40,
+      "y": 300,
+      "w": 80,
+      "h": 80,
+      "color": "p1",
+      "animate": "twinkle"
+    },
+    {
+      "type": "sparkle",
+      "x": 960,
+      "y": 1400,
+      "w": 80,
+      "h": 80,
+      "color": "p3",
+      "animate": "twinkle"
+    }
+  ]
+}
